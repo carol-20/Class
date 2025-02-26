@@ -1,5 +1,6 @@
 const user = "User"
 const password = "Password"
+const email = "Email"
 
 
 function login(){

@@ -1,9 +1,10 @@
+const loginButton = document.getElementById("btn")
 const user = "User"
 const password = "Password"
 const email = "Email"
 
 
-function login(){
+loginButton.addEventListener("click", login = () => {
     let User = "User"
     let Password = "Password"
 
@@ -11,7 +12,6 @@ function login(){
         console.log("login successful")
     }else{
         console.log("wrong  credentials")
-    }
-}
+ 
+}})
 
-login()

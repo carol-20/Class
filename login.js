@@ -6,12 +6,13 @@ const email = "Email"
 
 loginButton.addEventListener("click", login = () => {
     let User = "User"
-    let Password = "Password"
+    let Password = "Password" 
 
     if(Password == password && User == user ){
         console.log("login successful")
     }else{
         console.log("wrong  credentials")
  
-}})
+}}) 
+
 
